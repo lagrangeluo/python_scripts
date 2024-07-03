@@ -1,0 +1,11 @@
+<launch>
+
+<arg name = "port_name" value = "/dev/ttyUSB0" />
+<arg name = "salve_id" value = "9" />
+
+<node type="jodell_ros_node.py" name="jodell_ros_node" pkg="jodell_ros" output="screen">
+    <param name = "port_name" type="string" value="$(arg port_name)" />
+    <param name = "salve_id" type="int" value="$(arg salve_id)" />
+</node>
+
+</launch>
