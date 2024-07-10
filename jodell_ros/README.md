@@ -1,6 +1,22 @@
 # JODELL ROS 驱动
 
+## 编译
+
+安装python sdk:
+
+``` bash
+cd jodell_ros
+pip3 install sdk/JodellTool-0.0.1-py3-none-any.whl
+```
+
+编译
+
+```bash
+catkin_make
+```
+
 ## 启动
+
  ``` bash
 roslaunch jodell_ros start.launch
  ```
