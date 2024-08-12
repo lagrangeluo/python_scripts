@@ -16,3 +16,7 @@ this responsitory is created for python scripts of ros
 ## jodell ros驱动包
 
 为jodell公司的夹爪开发的ros驱动包
+
+## limo_dabai
+
+背景：limo的大白相机uvc usb号因为产品批次的问题，2024年6月以后生产的相机usb号就有所不同，所以需要一个脚本修改limo,limo pro,limo ros2三个版本车型的dabai ros1,2驱动包，详细运行方式见pdf手册
